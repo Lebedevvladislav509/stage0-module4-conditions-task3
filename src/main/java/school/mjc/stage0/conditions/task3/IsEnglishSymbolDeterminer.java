@@ -4,7 +4,8 @@ public class IsEnglishSymbolDeterminer {
     public void isEnglishSymbol(char symbol) {
         if ((symbol > 64 && symbol < 91) || (symbol > 96 && symbol < 122)) {
             System.out.println("English");
+        } else {
+            System.out.println("Non English");
         }
-        System.out.println("Non English");
     }
 }
